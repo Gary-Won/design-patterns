@@ -8,6 +8,7 @@ import java.util.Properties;
 /**
  * @author wangqiu
  * @date 2020/12/27 - 23:36
+ * @desc 饿汉式
  */
 public class AppConfig {
     private static AppConfig instance = new AppConfig();
